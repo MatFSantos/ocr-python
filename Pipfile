@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 gdown = "*"
+pytesseract = "*"
+pypdf2 = "*"
+pdf2image = "*"
 
 [dev-packages]
 
