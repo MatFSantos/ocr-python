@@ -1,12 +1,4 @@
-import pytesseract
-from PIL import Image
+from app.app import app
 
-# pytesseract.pytesseract.tesseract_cmd = r'<full_path_to_your_tesseract_executable>'
-
-print(pytesseract.image_to_string(Image.open("pdf/teste.png")))
-
-
-# print(pytesseract.image_to_string("pdf/teste.png"))
-
-
-print(pytesseract.get_languages(config=""))
+if __name__ == '__main__':
+    app.run(debug=False)

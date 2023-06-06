@@ -8,6 +8,10 @@ gdown = "*"
 pytesseract = "*"
 pypdf2 = "*"
 pdf2image = "*"
+numpy = "*"
+opencv-python = "*"
+flask = "*"
+flask-cors = "*"
 
 [dev-packages]
 

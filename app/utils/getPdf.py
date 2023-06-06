@@ -8,6 +8,6 @@ class GetPdf():
     def run(self):
         file_name = 'pdf/' +  str(uuid4()) + '.pdf'
         
-        download(self.__url, file_name, fuzzy=True)
+        download(self.__url, file_name, fuzzy=True, quiet=True)
 
         return file_name
