@@ -1,5 +1,3 @@
-from typing import Any
-from PyPDF2 import PdfReader
 from pdf2image import convert_from_path
 from uuid import uuid4
 
