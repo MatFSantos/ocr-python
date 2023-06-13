@@ -35,10 +35,6 @@ def ocr():
     
     reitor = match(r"(.*)\sREITOR", strs[0])
 
-    if not reitor:
-        reitor = match(r"(.*)\n\nReitor", strs[0])
-
-
     data = match(r"(.*)\s" + ano if ano else None, strs[len(strs) - 1])
 
     data = data.split(',')[1] + " " + ano if data else None
